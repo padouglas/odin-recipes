@@ -2,8 +2,14 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 20px 200px;
+}
+
 h1 {
     color: darkblue;
+    background-color: lightgrey;
+    padding: 5px 10px;
 }
 
 h2 {
@@ -21,4 +27,12 @@ div.description {
 
 ul.ingredients li {
     font-family: 'Courier New', Courier, monospace;
+}
+
+ul.recipelist li {
+    display: inline-block;
+    padding: 50px 10px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 0;
+    /* height: 100px; */
 }
